@@ -21,57 +21,67 @@
 
 </head>
 <body>
-  <!-- ===== Navigation ===== -->
-  <nav class="navbar navbar-expand-lg bg-transparent">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">AA</a>
+  <div class="wrapper">
+    <!-- ====== Navigation =====  -->
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">AA</a>
     
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navHeaderCollapse" aria-controls="navHeaderCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navHeaderCollapse" aria-controls="navHeaderCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
-      </button>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navHeaderCollapse">
+          <!-- ml auto margin-left: auto !important -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ml-auto">
+              <a class="nav-link scroll" href="#home">home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ml-auto">
+              <a class="nav-link scroll" href="#projects">projects</a>
+            </li>
+            <li class="nav-item ml-auto">
+              <a class="nav-link scroll" href="#contact">contact me</a>
+            </li>
+          </ul>
+        </div>
+            
+      </div>
+    </nav>
+        
+    <!-- ===== Intro ===== -->
+    <div class="container intro">
+      <div class="introwrap">
+      <h1>Andrew Abalos</h1>
+        <div id="typed-strings">
+          <h3>Front End Developer</h3>
+          <h3><strong>html</strong></h3>
+          <h3><strong>css</strong></h3>
+          <h3><strong>javascript</strong></h3>
+          <h3><strong>jQuery</strong></h3>
+        </div>
+        <span id="typed"></span>
+                
+        <br>
+                
+        <div class="icons">
+          <a href="https://github.com/andysaurusrex"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-google-plus fa-3x" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
 
-      <div class="collapse navbar-collapse" id="navHeaderCollapse">
-        <!-- ml auto margin-left: auto !important -->
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item ml-auto">
-            <a class="nav-link scroll" href="#home">home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item ml-auto">
-            <a class="nav-link scroll" href="#projects">projects</a>
-          </li>
-          <li class="nav-item ml-auto">
-            <a class="nav-link scroll" href="#contact">contact me</a>
-          </li> 
-        </ul>
+          <br>
+
+          <a href="#projects"><i class="fa fa-angle-down arrow scroll" aria-hidden="true"></i></a>
+
+        </div>
+
       </div>
     </div>
-  </nav>
-  
-  <!-- ===== Introduction ===== -->
-  <div class="container intro">
-    <h1>Andrew Abalos</h1>
-      <div id="typed-strings">
-        <h3>Front End Developer</h3>
-        <h3><strong>html</strong></h3>
-        <h3><strong>css</strong></h3>
-        <h3><strong>javascript</strong></h3>
-        <h3><strong>jQuery</strong></h3>
-      </div>
-      <span id="typed"></span>
-            
-      <br>
-            
-      <div class="icons">
-        <a href="https://github.com/andysaurusrex"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-        <a href=""><i class="fa fa-google-plus fa-3x" aria-hidden="true"></i></a>
-        <a href=""><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
-      </div>
-  </div>
 
-  <!-- ===== Projects ====== -->
-  <div class="projects" id="projects">
-    <div class="projectwrap container-fluid">
-      <h1>test</h1>
+    <!-- ===== Projects ===== -->
+    <div class="projectwrap">
+      <div class="projects" id="projects">
+
 
 
 
@@ -80,6 +90,16 @@
 
 
       </div>
+    </div>
+        
+        
+        
+        
+        
+        
+        
+        
+    
   </div>
 
 

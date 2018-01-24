@@ -1,17 +1,18 @@
 // Scroll animation jQuery
 
-$(document).ready(function() {
-  var scrollLink = $('.scroll');
+$(document).ready(function(){
+  $("a").click(function(e){
+      e.preventDefault();
+      var offset = $(this.hash).offset();
+      if (!offset) {
+      	return;
+      }
 
-  // Smooth scrolling
-  scrollLink.click(function(event) {
-    event.preventDefault();
-    $('body,html').animate({
-      scrollTop: $(this.hash).offset().top
-    },700)
+      $("html,body").animate({
+        scrollTop : offset.top         
+      },2000);
   });
-
-})
+});
 
 // Type animation
 
