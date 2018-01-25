@@ -1,131 +1,83 @@
-* {
-    font-family: 'Poppins', sans-serif;
-    padding: 0;
-    margin: 0;
-}
-
 body, html {
-    position: relative;
+    font-family: "Poppins", sans-serif;
     background-color: #99ccff;
     height: 100%;
-}
-  
-/* ===== Navigation ===== */
-  
-a.navbar-brand {
-    color: #fff;
-    font-size: 26px;
-    border-style: solid;
-    border-radius: 4px;
-    border-width: 2px;
-    padding: 0px 3px;
-    margin-left: 5%;
-}
-
-i.fa-bars {
-    font-size: 30px;
-}
-
-button.navbar-toggler {
-    color: #fff;
-    border-color: #fff;
-
-}
-
-/* Add space evenly to both sides of navigation */
-ul.navbar-nav {
-    margin-right: 5%;
-}
-
-a.nav-link {
-  color: #fff;
-  font-weight: bold;
-  position: relative;
-}
-
-/* CSS underline animation */
-
-a.nav-link:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #000;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-}
-
-a.nav-link:hover:before {
-    visibility: visible;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
   }
-
-.menuUnderline {
-    background-color: #000;
-    position: absolute;
-    height: 3px;
-    left: 0;
-    bottom: 0;
-}
   
-/* ===== Intro ===== */
+  /* ===== Navigation ===== */
+    
+  a.navbar-brand {
+      color: #fff;
+      font-size: 26px;
+      border-style: solid;
+      border-radius: 4px;
+      border-width: 2px;
+      padding: 0px 3px;
+      margin-left: 5%;
+  }
   
-.wrapper {
-    min-height: 100%;
-    max-width: 100%;
-}
-
-.intro {
-    text-align: center;
-    height: 85vh;
-}
-
-.introwrap {
-    display: inline-block;
-    height: 100%; 
-}
+  i.fa-bars {
+      font-size: 30px;
+  }
   
-.intro h1 {
-    /* font-family: 'Poppins', sans-serif; */
-    font-size: 96px;
-    margin-top: 50%;
-}
-
-.icons a {
+  button.navbar-toggler {
+      color: #fff;
+      border-color: #fff;
+  
+  }
+  
+  /* Add space evenly to both sides of navigation */
+  ul.navbar-nav {
+      margin-right: 5%;
+  }
+  
+  a.nav-link {
     color: #fff;
-    padding-left: 8.5px;
-}
-
-/* ===== Arrow Icon ====== */
-
-.arrow {
-    font-size: 46px;
     font-weight: bold;
-    padding-top: 52%;
-}
-
-/* ===== Typed Strings ====== */
-
-#typed {
-    font-size: 46px;
-    color: #fff;
-}
-
-/* ===== Project Section ===== */
-
-.projectwrap {
-    margin-top: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    height: 100vh;
-    background-color: #fff;
-}
+    position: relative;
+  }
+  
+  /* ===== Intro ===== */
+    
+  .wrapper {
+      min-height: 100%;
+      max-width: 100%;
+  }
+  
+  #intro {
+      text-align: center;
+      height: 100vh;
+  }
+  
+  #introwrap {
+      max-width: 90%;
+      max-height: 90%;
+      display: inline-block;
+      vertical-align: middle;
+  }
+  
+  /* ===== Project Section ======  */
+  
+  .projectswrap {
+      margin-top: 5%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      height: 100%;
+      background-color: #fff;
+  }
+  
+  .project {
+      height: 100%;
+      margin-bottom: 5%;
+      background-color: white;
+      padding: 2% 2% 0% 2%;
+  }
+  
+  .projects h1 {
+    text-align: center;
+    padding-top: 5%;
+  }
+  
 
 
 

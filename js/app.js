@@ -1,16 +1,13 @@
 // Scroll animation jQuery
 
-$(document).ready(function(){
-  $("a").click(function(e){
-      e.preventDefault();
-      var offset = $(this.hash).offset();
-      if (!offset) {
-      	return;
-      }
+$(document).ready(function() {
+  var scrollLink = '.scrolls';
 
-      $("html,body").animate({
-        scrollTop : offset.top         
-      },2000);
+  scrollLink.click(function(e) {
+    e.preventDefault();
+    $('body,html').animate({
+      scrollTop: $(this.hash).offset().top()
+    });
   });
 });
 
