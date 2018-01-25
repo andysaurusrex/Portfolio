@@ -92,6 +92,7 @@ a.nav-link:before {
 
 .icons a:hover{
     text-decoration: none;
+    text-shadow: 0 0 5px #fff;
 }
 
 .fa {
